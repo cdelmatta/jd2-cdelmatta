@@ -1,0 +1,266 @@
+{
+	"falhas": 0,
+	"testes": [
+		{
+			"passou": true,
+			"teste": "cena carregável: res://scenes/inicio.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "cena carregável: res://scenes/vila.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "cena carregável: res://entities/inimigo.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "cena carregável: res://entities/jogador.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "cena carregável: res://scenes/vitoria.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "cena carregável: res://scenes/derrota.tscn"
+		},
+		{
+			"passou": true,
+			"teste": "menu é a cena principal"
+		},
+		{
+			"passou": true,
+			"teste": "tecla Enter inicia partida pelo menu"
+		},
+		{
+			"passou": true,
+			"teste": "botão inicia ou reinicia: inicio"
+		},
+		{
+			"passou": true,
+			"teste": "botão inicia ou reinicia: vitoria"
+		},
+		{
+			"passou": true,
+			"teste": "botão inicia ou reinicia: derrota"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: três vidas"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: intervalo de horda 2 s"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: horda ativa"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: relógio 60 s ativo"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: partida aberta"
+		},
+		{
+			"passou": true,
+			"teste": "jogador: grupo e camadas"
+		},
+		{
+			"passou": true,
+			"teste": "jogador: colisor presente"
+		},
+		{
+			"passou": true,
+			"teste": "Hurtbox: camada e máscara"
+		},
+		{
+			"passou": true,
+			"teste": "Hurtbox: círculo de raio 6"
+		},
+		{
+			"passou": true,
+			"teste": "inimigo: grupo e camadas"
+		},
+		{
+			"passou": true,
+			"teste": "inimigo: velocidade 40"
+		},
+		{
+			"passou": true,
+			"teste": "quatro nascedouros"
+		},
+		{
+			"passou": true,
+			"teste": "nascedouro livre: Esquerda"
+		},
+		{
+			"passou": true,
+			"teste": "nascedouro livre: Direita"
+		},
+		{
+			"passou": true,
+			"teste": "nascedouro livre: Cima"
+		},
+		{
+			"passou": true,
+			"teste": "nascedouro livre: Baixo"
+		},
+		{
+			"passou": true,
+			"teste": "Horda timeout conectado"
+		},
+		{
+			"passou": true,
+			"teste": "Relogio timeout conectado"
+		},
+		{
+			"passou": true,
+			"teste": "HUD fixo mostra vida e tempo"
+		},
+		{
+			"passou": true,
+			"teste": "movimento horizontal: 68"
+		},
+		{
+			"passou": true,
+			"teste": "diagonal normalizada: [68, 87]"
+		},
+		{
+			"passou": true,
+			"teste": "movimento horizontal: 4194321"
+		},
+		{
+			"passou": true,
+			"teste": "diagonal normalizada: [4194321, 4194320]"
+		},
+		{
+			"passou": true,
+			"teste": "soltar teclas interrompe movimento"
+		},
+		{
+			"passou": true,
+			"teste": "inimigo aproxima-se do jogador a 40"
+		},
+		{
+			"passou": true,
+			"teste": "mundo bloqueia perseguição"
+		},
+		{
+			"passou": true,
+			"teste": "timer gera primeiro inimigo e reduz intervalo"
+		},
+		{
+			"passou": true,
+			"teste": "horda alcança e respeita mínimo 0,5 s"
+		},
+		{
+			"passou": true,
+			"teste": "contato causa um dano e transparência"
+		},
+		{
+			"passou": true,
+			"teste": "invencibilidade bloqueia dano repetido"
+		},
+		{
+			"passou": true,
+			"teste": "HUD acompanha perda de vida"
+		},
+		{
+			"passou": true,
+			"teste": "após 1 s recupera alpha e vulnerabilidade"
+		},
+		{
+			"passou": true,
+			"teste": "sobreposição com última vida causa derrota"
+		},
+		{
+			"passou": true,
+			"teste": "Enter retorna à vila"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: três vidas"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: intervalo de horda 2 s"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: horda ativa"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: relógio 60 s ativo"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: partida aberta"
+		},
+		{
+			"passou": true,
+			"teste": "encerrar para timers e bloqueia spawn"
+		},
+		{
+			"passou": true,
+			"teste": "derrota não é sobrescrita por vitória no mesmo turno"
+		},
+		{
+			"passou": true,
+			"teste": "Enter retorna à vila"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: três vidas"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: intervalo de horda 2 s"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: horda ativa"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: relógio 60 s ativo"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: partida aberta"
+		},
+		{
+			"passou": true,
+			"teste": "Relogio vence e segundo encerramento é ignorado"
+		},
+		{
+			"passou": true,
+			"teste": "Enter retorna à vila"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: três vidas"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: intervalo de horda 2 s"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: horda ativa"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: relógio 60 s ativo"
+		},
+		{
+			"passou": true,
+			"teste": "reinício: partida aberta"
+		}
+	],
+	"total": 65
+}

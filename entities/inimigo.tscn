@@ -1,0 +1,24 @@
+[gd_scene format=3]
+
+[ext_resource type="Script" path="res://scripts/inimigo.gd" id="1_script"]
+[ext_resource type="Texture2D" path="res://sprites/combate/zumbi_rapido/run.png" id="2_arte"]
+
+[sub_resource type="RectangleShape2D" id="Corpo"]
+size = Vector2(10, 6)
+
+[node name="Inimigo" type="CharacterBody2D" groups=["inimigo"]]
+collision_layer = 4
+collision_mask = 5
+motion_mode = 1
+script = ExtResource("1_script")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+z_index = 1
+position = Vector2(0, -3)
+scale = Vector2(0.32, 0.32)
+texture = ExtResource("2_arte")
+hframes = 8
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0, 5)
+shape = SubResource("Corpo")
